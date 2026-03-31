@@ -26,6 +26,8 @@ By integrating geospatial analysis with temporal animation, the project highligh
   Provides country-level boundary data used for map context and visualization.  
   🔗 https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries/
 
+All datasets used in this project are included in the `/data` folder to ensure full reproducibility of the analysis.
+
 ## ⚙️ Methodology
 
 ### 📥 Data Acquisition
@@ -64,6 +66,8 @@ The heatmap was created through the Layer Styling panel by changing the renderer
 
 A Magma color ramp was selected to effectively represent variations in conflict intensity, with brighter areas indicating higher concentrations of events.
 
+<img src="images/heatmap_styling.jpg" width="85%">
+
 ### ⏳ Temporal Configuration
 
 To enable temporal analysis, a date field was created from the existing year attribute in the dataset. This was necessary because the temporal controller in QGIS requires a date-formatted field.
@@ -79,6 +83,8 @@ After creating the date field, temporal properties were configured for the layer
 The configuration was set to Single Field with Date/Time, with the newly created date field selected. The temporal limits were set to include both start and end values.
 
 An event duration of 1 year was applied, ensuring that each frame in the animation represents events occurring within a single year.
+
+<img src="images/temporal_controller.jpg" width="85%">
 
 ### 🎞️ Temporal Animation Setup & Visualization
 
