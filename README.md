@@ -104,7 +104,7 @@ Additional styling adjustments were made to enhance readability, including label
 
 Once the map design was finalized, the animation was exported. This was done using the Export Animation option within the Temporal Controller.
 
-The animation was exported as a sequence of PNG frames, covering the time period from 2000 to 2024. The output directory and spatial extent were specified during export, and QGIS generated a total of 35 frames representing yearly intervals.
+The animation was exported as a sequence of PNG frames, covering the time period from 2000 to 2024. The output directory and spatial extent were specified during export, and QGIS generated a total of 25 frames representing yearly intervals.
 
 ### 🎬 Video Post-Processing
 
@@ -154,8 +154,8 @@ The animation highlights how conflict intensity shifts across regions over time,
 
 ## 🛠️ Tools Used
 
-- QGIS – Data processing, spatial analysis, visualization, and temporal animation  
-- CapCut – Video compilation and post-processing
+- QGIS  
+- CapCut 
 
 ## 👤 Author
 
